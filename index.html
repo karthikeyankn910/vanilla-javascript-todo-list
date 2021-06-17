@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <section class="container"> 
+            <h1>My Todo List's</h1>
+            <form>
+                <input autofocus type = 'text' class = 'input-field' placeholder = 'Enter a To Do'  />
+                <button type = 'submit' class = 'submit-btn'>OK</button>
+            </form>
+            <div class="details">
+                <div class="details-wrapper"> 
+                    <div><span>Total: </span><span class="total">0</span></div>
+                    <div><span>Completed: </span><span class="completed">0</span> </div>
+                    <div><span>Remaining: </span><span class="not-completed">0</span></div>
+                </div>
+            </div>
+            <div class="todo-lists">
+                <!-- <div class="todo">
+                    <span class="message"></span>
+                    <button class="complete-btn"></button>
+                    <button class="delete-btn"></button>
+                </div> -->
+            </div>
+        </section>
+        <div class="status"></div>
+    </main>
+    <script src = './app.js'></script>
+</body>
+</html>
